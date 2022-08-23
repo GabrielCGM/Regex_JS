@@ -10,10 +10,10 @@
 */
 const regexValid = /^\(?[\d]{2}\)?\s?[0-9]{5}\-?[0-9]{4}$/
 
-console.log(regexValid.test('(21)96525-8151')) // TRUE
-console.log(regexValid.test('(21) 96525-8151')) // TRUE
-console.log(regexValid.test('(21) 965258151')) // TRUE
-console.log(regexValid.test('21 96525-8151'))  // TRUE
-console.log(regexValid.test('21 965258151')) // TRUE
-console.log(regexValid.test('2196525-8151')) // TRUE
-console.log(regexValid.test('21965258151')) // TRUE
+console.log(regexValid.test('(21)12345-1234')) // TRUE
+console.log(regexValid.test('(21) 12345-1234')) // TRUE
+console.log(regexValid.test('(21) 123451234')) // TRUE
+console.log(regexValid.test('21 12345-1234'))  // TRUE
+console.log(regexValid.test('21 123451234')) // TRUE
+console.log(regexValid.test('2112345-1234')) // TRUE
+console.log(regexValid.test('21123451234')) // TRUE
